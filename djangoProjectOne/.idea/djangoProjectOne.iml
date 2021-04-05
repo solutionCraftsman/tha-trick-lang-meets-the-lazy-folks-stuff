@@ -14,8 +14,9 @@
   </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
-    <orderEntry type="jdk" jdkName="Python 3.8 (test-env)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.8 (menDemGalleryEnv)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="menDemGallery" />
   </component>
   <component name="PyDocumentationSettings">
     <option name="format" value="PLAIN" />
