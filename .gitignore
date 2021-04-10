@@ -132,4 +132,5 @@ dmypy.json
 
 # Custom
 menDemGallery/*/static/img/
+menDemGallery/gallery/static/img/
 
