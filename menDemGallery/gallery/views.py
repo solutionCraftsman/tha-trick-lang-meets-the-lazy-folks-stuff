@@ -16,6 +16,6 @@ def man_details(request, pk):
     context = {
         'man': man
     }
-    return render(request, 'man_detail.html', context)
+    return render(request, 'man_details.html', context)
 
 
