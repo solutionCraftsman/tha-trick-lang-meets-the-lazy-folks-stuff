@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Posts</title>
+</head>
+<body>
+    <h1>Posts</h1>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="card">
+                {% for post in posts %}
+                    <p>@{{ post.owner.username }}</p>
+                    <img alt="post" width="200px" src="{{ post.image.url }}">
+                    <p>{{ post.description }}</p>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</body>
+</html>

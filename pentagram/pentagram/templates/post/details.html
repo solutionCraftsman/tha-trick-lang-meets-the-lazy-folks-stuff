@@ -8,10 +8,16 @@
 <body>
     <h1>Detail of Post</h1>
     <hr>
-    <div>
-        <h6>@{{ post.owner.username }}</h6>
-        <img src="{{ post.image.url }}" />
-<!--        <img src="{{ post.owner.profile_picture.url }}" />-->
+    <div class="container">
+        <div class="row">
+            <div>
+                <p>@{{ post.owner.username }}</p>
+                <img alt="post" width="500px" src="{{ post.image.url }}">
+            </div>
+            <div>
+                <p>{{ post.description }}</p>
+            </div>
+        </div>
     </div>
 </body>
 </html>

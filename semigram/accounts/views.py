@@ -1,10 +1,7 @@
 from django.shortcuts import render
-from account.form import OwnerInformation
-
 
 # Create your views here.
-def home(request):
-    return render(request, 'account/all.html')
+from accounts.forms import OwnerInformation
 
 
 def create_user(request):
@@ -12,10 +9,10 @@ def create_user(request):
         form = OwnerInformation(request.POST, request.FILES)
         if form.is_valid():
             form.save()
-            return render(request, 'success.html')
+            return render(request, "success.html")
     else:
         form = OwnerInformation()
         context = {
-            'form': form
+            "form": form
         }
-        return render(request, 'user/user_creation.html')
+        return render(request, "user_creation.html", context)

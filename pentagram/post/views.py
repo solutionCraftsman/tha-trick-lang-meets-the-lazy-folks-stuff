@@ -5,18 +5,18 @@ from .form import PostForm
 
 
 # Create your views here.
-def home(request):
+def all_posts(request):
     posts = Post.objects.all()
     context = {
-        'post': posts
+        'posts': posts
     }
 
-    return render(request, 'post/home.html', context)
+    return render(request, 'post/all.html', context)
 
 
 def create(request):
     if request.method == 'POST':
-        form = PostForm(request.POST, request.FILES)
+        form = PostForm(request.POST or None, request.FILES or None)
 
         if form.is_valid():
             form.save()
