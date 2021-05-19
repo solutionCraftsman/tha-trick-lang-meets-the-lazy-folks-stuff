@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/djangoProjectY.iml" filepath="$PROJECT_DIR$/.idea/djangoProjectY.iml" />
       <module fileurl="file://$PROJECT_DIR$/../mysite/.idea/mysite.iml" filepath="$PROJECT_DIR$/../mysite/.idea/mysite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../re-trick-tool-proj/.idea/re-trick-tool-proj.iml" filepath="$PROJECT_DIR$/../re-trick-tool-proj/.idea/re-trick-tool-proj.iml" />
       <module fileurl="file://$PROJECT_DIR$/../trick-tool/.idea/trick-tool.iml" filepath="$PROJECT_DIR$/../trick-tool/.idea/trick-tool.iml" />
     </modules>
   </component>
