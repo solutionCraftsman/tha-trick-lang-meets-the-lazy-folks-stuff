@@ -4,5 +4,6 @@
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../re-trick-tool-proj" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../trick-tool" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../twi_trick" vcs="Git" />
   </component>
 </project>

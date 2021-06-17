@@ -7,6 +7,8 @@
     <orderEntry type="module" module-name="mysite" />
     <orderEntry type="module" module-name="trick-tool" />
     <orderEntry type="module" module-name="re-trick-tool-proj" />
+    <orderEntry type="module" module-name="twi_trick" />
+    <orderEntry type="module" module-name="insta_trick" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Nosetests" />

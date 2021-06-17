@@ -23,3 +23,7 @@ class Comment(models.Model):
 
     def __str__(self):
         return self.owner.username
+
+
+There isn’t anything to compare.
+indev is up to date with all commits from ayodele. Try switching the base for your comparison.

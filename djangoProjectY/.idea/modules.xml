@@ -3,9 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/djangoProjectY.iml" filepath="$PROJECT_DIR$/.idea/djangoProjectY.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../insta_trick/.idea/insta_trick.iml" filepath="$PROJECT_DIR$/../insta_trick/.idea/insta_trick.iml" />
       <module fileurl="file://$PROJECT_DIR$/../mysite/.idea/mysite.iml" filepath="$PROJECT_DIR$/../mysite/.idea/mysite.iml" />
       <module fileurl="file://$PROJECT_DIR$/../re-trick-tool-proj/.idea/re-trick-tool-proj.iml" filepath="$PROJECT_DIR$/../re-trick-tool-proj/.idea/re-trick-tool-proj.iml" />
       <module fileurl="file://$PROJECT_DIR$/../trick-tool/.idea/trick-tool.iml" filepath="$PROJECT_DIR$/../trick-tool/.idea/trick-tool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../twi_trick/.idea/twi_trick.iml" filepath="$PROJECT_DIR$/../twi_trick/.idea/twi_trick.iml" />
     </modules>
   </component>
 </project>
